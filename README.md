@@ -8,7 +8,10 @@ Memgraph is a streaming graph application platform that helps you wrangle your s
 
 
 
+
 ## Getting Started
+
+If you're in hurry, [click here](https://open.docker.com/extensions/marketplace?extensionId=ajeetraina/memgraph-docker-extension&tag=latest) to deploy it on Docker Desktop.
 
 ## Prerequisite
 
