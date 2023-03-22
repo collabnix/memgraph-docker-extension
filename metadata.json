@@ -1,5 +1,5 @@
 {
-  "icon": "docker.svg",
+  "icon": "memgraph.svg",
   "vm": {
     "composefile": "docker-compose.yaml",
     "exposes": {
