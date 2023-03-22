@@ -12,7 +12,13 @@ services:
     environment:
       - MEMGRAPH="--log-level=TRACE"
     entrypoint: ["/usr/bin/supervisord"]
+    networks:
+      - memnet
+
 volumes:
   mg_lib:
   mg_log:
   mg_etc:
+
+networks:
+  memnet:
