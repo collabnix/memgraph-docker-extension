@@ -44,7 +44,7 @@ If you're in hurry, [click here](https://open.docker.com/extensions/marketplace?
 ### Install the Extension
 
 ```
- docker extension install ajeetraina/memgraph-docker-extension:latest
+ make install-extension
 ```
 
 ### Accessing the Extension
