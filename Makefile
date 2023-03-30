@@ -1,5 +1,5 @@
 IMAGE?=ajeetraina/memgraph-docker-extension
-TAG?=1.0.0
+TAG?=1.1.0
 
 BUILDER=buildx-multi-arch
 

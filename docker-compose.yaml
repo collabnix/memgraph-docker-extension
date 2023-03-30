@@ -1,6 +1,6 @@
 services:
   memgraph-platform:
-    image: "memgraph/memgraph-platform"
+    image: "memgraph/memgraph-platform:2.6.6-memgraph2.6.0-lab2.5.0-mage1.6.1"
     ports:
       - "7687:7687"
       - "3000:3000"
@@ -10,7 +10,7 @@ services:
       - mg_log:/var/log/memgraph
       - mg_etc:/etc/memgraph
     environment:
-      - MEMGRAPH="--log-level=TRACE"
+      - MEMGRAPH="--log-level=INFO"
     entrypoint: ["/usr/bin/supervisord"]
     networks:
       - memnet
