@@ -1,4 +1,4 @@
-IMAGE?=ajeetraina/memgraph-docker-extension
+IMAGE?=memgraph/memgraph-docker-extension
 TAG?=1.1.0
 
 BUILDER=buildx-multi-arch
