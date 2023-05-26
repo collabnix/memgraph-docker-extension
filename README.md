@@ -22,7 +22,7 @@ If you're in hurry, [click here](https://open.docker.com/extensions/marketplace?
 ### Clone the repo
 
 ```
- git clone https://github.com/collabnix/memgraph-docker-extension
+ git clone https://github.com/memgraph/memgraph-docker-extension
 ```
 
 ### Build the Extension
