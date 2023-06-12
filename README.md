@@ -12,7 +12,7 @@ If you're in hurry, [click here](https://open.docker.com/extensions/marketplace?
 
 ## Prerequisite
 
-- Docker Desktop 4.8+
+- Docker Desktop 4.10+
 
 ## Building the Extension locally
 
