@@ -1,3 +1,9 @@
+![Docker Pulls](https://img.shields.io/docker/pulls/memgraph/memgraph-docker-extension)
+![stars](https://img.shields.io/github/stars/memgraph/memgraph-docker-extension)
+![forks](https://img.shields.io/github/forks/memgraph/memgraph-docker-extension)
+![issues](https://img.shields.io/github/issues/memgraph/memgraph-docker-extension)
+![Twitter](https://img.shields.io/twitter/follow/memgraphdb?style=social)
+
 # Memgraph Docker Extension
 
 Memgraph is a streaming graph application platform that helps you wrangle your streaming data, build sophisticated models you can query in real-time, and develop applications you never thought possible within a couple of days, not months. With Memgraph Docker Extension, now you can setup Memgraph platform in no seconds.
