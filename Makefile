@@ -1,5 +1,5 @@
 IMAGE?=memgraph/memgraph-docker-extension
-TAG?=2.12.0
+TAG?=2.12.01
 
 BUILDER=buildx-multi-arch
 
@@ -26,3 +26,4 @@ help: ## Show this help
 	@grep -E '^[0-9a-zA-Z_-]+:.*?## .*$$' $(MAKEFILE_LIST) | awk 'BEGIN {FS = ":.*?## "}; {printf "$(INFO_COLOR)%-30s$(NO_COLOR) %s\n", $$1, $$2}'
 
 .PHONY: help
+docker login
