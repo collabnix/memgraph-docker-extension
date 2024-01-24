@@ -1,6 +1,6 @@
 services:
   memgraph-platform:
-    image: "memgraph/memgraph-platform:2.14.0-memgraph2.14.0-lab2.11.1-mage1.14"
+    image: "memgraph/memgraph-platform:2.13.0-memgraph2.13.0-lab2.10.0-mage1.13"
     ports:
       - "7687:7687"
       - "3000:3000"
