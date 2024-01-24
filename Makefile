@@ -1,5 +1,7 @@
 IMAGE?=memgraph/memgraph-docker-extension
+
 TAG?=2.14.1
+
 BUILDER=buildx-multi-arch
 
 INFO_COLOR = \033[0;36m
